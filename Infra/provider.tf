@@ -9,7 +9,7 @@ terraform {
 }
 
 provider "google" {
-  project = ""
-  region  = ""
-  zone    = ""
+  project = var.project
+  region  = var.region
+  zone    = var.zone
 }
